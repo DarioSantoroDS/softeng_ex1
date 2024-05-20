@@ -1,4 +1,5 @@
 #include <vector>
+#include  <cmath>
 #include <string>
 #include <unordered_set>
 
@@ -41,22 +42,42 @@
 
 std::string balancedNum(unsigned long long int number)
 {
-  // your code here ZIOPERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  return "";
+  int pippo = 10;
+  int result = 1;
+  int lenght = 0;
+  int right=0;
+  int left=0;
+//  std::vector<int> risultati;
+  if(number-pippo*pippo<0){
+    return "Balanced";
+  }
+  while(result!=0){
+    result=number/pippo;
+    pippo=pippo*10;
+    lenght++;  
+  }
+  for(int i=0;i<(lenght+1)/2;i++){
+    right=right+number%static_cast<int>(pow(pippo,i+1));
+    left=left+number%static_cast<int>(pow(pippo,lenght-i));
+  }
+  if(right==left){
+    return "Balanced";
+  }
+  else  return "Not Balanced";
 }
 
 // ********************************************************************************************************
 
-
 // ############################### PROBLEM 2: Isograms [lvl 1] #############################################
-// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function 
-//that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function
+// that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 // Example: (Input --> Output)
 // "Dermatoglyphics" --> true
 // "aba" --> false
 // "moOse" --> false (ignore letter case)
 
-bool is_isogram(std::string str) {
+bool is_isogram(std::string str)
+{
   // your code here
   return false;
 }
@@ -64,9 +85,9 @@ bool is_isogram(std::string str) {
 // ********************************************************************************************************
 
 // ############################### PROBLEM 3: All or Nothing [lvl 1] #############################################
-// Suppose a student can earn 100% on an exam by getting the answers all correct or all incorrect. 
-// Given a potentially incomplete answer key and the student's answers, 
-// write a function that determines whether or not a student can still score 100%. 
+// Suppose a student can earn 100% on an exam by getting the answers all correct or all incorrect.
+// Given a potentially incomplete answer key and the student's answers,
+// write a function that determines whether or not a student can still score 100%.
 // Incomplete questions are marked with an underscore, "_".
 
 // ["A", "_", "C", "_", "B"]   # answer key
@@ -99,19 +120,17 @@ bool is_isogram(std::string str) {
 // (["B"], ["B"]) ➞ True
 // (["_"], ["B"]) ➞ True
 
-
 // Notes:
 // Test has at least one question.
 // len(key) == len(answers)
 
-bool possibly_perfect(const std::vector<char>& key, const std::vector<char>& answers)
+bool possibly_perfect(const std::vector<char> &key, const std::vector<char> &answers)
 {
-    // your code here
-    return true;
+  // your code here
+  return true;
 }
 
 // ********************************************************************************************************
-
 
 // ############################### PROBLEM 4: Find the odd int [lvl 2] #############################################
 //  Given an array of integers, find the one that appears an odd number of times.
@@ -131,10 +150,8 @@ int findOdd(const std::vector<int> &numbers)
 
 // ********************************************************************************************************
 
-
-
 // ############################### PROBLEM 5: The Vowel Code [lvl 2] #############################################
-// Step 1: Create a function called encode() to replace all the lowercase vowels in 
+// Step 1: Create a function called encode() to replace all the lowercase vowels in
 // a given string with numbers according to the following pattern:
 // a -> 1
 // e -> 2
@@ -146,19 +163,19 @@ int findOdd(const std::vector<int> &numbers)
 // For example, decode("h3 th2r2") would return "hi there".
 // For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
 
-std::string encode(const std::string &str) {
+std::string encode(const std::string &str)
+{
   // your code here
   return "";
 }
 
-std::string decode(const std::string &str) {
+std::string decode(const std::string &str)
+{
   // your code here
   return "";
 }
 
 // ********************************************************************************************************
-
-
 
 // ############################### PROBLEM 6: Bananas [lvl 3] #############################################
 // > "What is your name" said Tim.
@@ -167,7 +184,7 @@ std::string decode(const std::string &str) {
 // "I was a banana" said Dingle the mouse, "So be careful. If you see her, run away!".
 // - Badjelly the Witch (12:32), Spike Milligan
 
-// Given a string of letters a, b, n how many different ways can you make the word "banana" 
+// Given a string of letters a, b, n how many different ways can you make the word "banana"
 // by crossing out various letters and then reading left-to-right?
 // (Use - to indicate a crossed-out letter)
 
@@ -194,9 +211,10 @@ std::string decode(const std::string &str) {
 // You must return all possible bananas, but the order does not matter
 // The example output above is formatted for readability. Please refer to the example tests for expected format of your result.
 
-std::unordered_set<std::string> bananas(const std::string& s) {
-    // your code here
-    return {};
+std::unordered_set<std::string> bananas(const std::string &s)
+{
+  // your code here
+  return {};
 }
 
 // ********************************************************************************************************
