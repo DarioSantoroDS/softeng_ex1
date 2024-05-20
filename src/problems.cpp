@@ -57,6 +57,22 @@ std::string balancedNum(unsigned long long int number)
 // "moOse" --> false (ignore letter case)
 
 bool is_isogram(std::string str) {
+
+
+  bool is_isogram(std::string str) {
+
+for(int i = 0; i < str.size(); i++){
+  for(int j=i+1; j < str.size(); j++){
+      if (str[j] == str[i])
+        return false;
+      else
+        continue;
+  }
+
+}
+  // your code here
+  return true;
+}
   // your code here
   return false;
 }
