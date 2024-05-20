@@ -1,10 +1,10 @@
-Start testing: May 20 14:14 UTC
+Start testing: May 20 14:18 UTC
 ----------------------------------------------------------
 1/6 Testing: Problem1.BalancedNum
 1/6 Test: Problem1.BalancedNum
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem1.BalancedNum" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem1.BalancedNum" start time: May 20 14:14 UTC
+"Problem1.BalancedNum" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem1.BalancedNum
@@ -36,7 +36,7 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem1.BalancedNum" end time: May 20 14:14 UTC
+"Problem1.BalancedNum" end time: May 20 14:18 UTC
 "Problem1.BalancedNum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,7 +44,7 @@ Test Failed.
 2/6 Test: Problem2.IsIsogram
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem2.IsIsogram" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem2.IsIsogram" start time: May 20 14:14 UTC
+"Problem2.IsIsogram" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem2.IsIsogram
@@ -62,7 +62,7 @@ Note: Google Test filter = Problem2.IsIsogram
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Problem2.IsIsogram" end time: May 20 14:14 UTC
+"Problem2.IsIsogram" end time: May 20 14:18 UTC
 "Problem2.IsIsogram" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -70,7 +70,7 @@ Test Passed.
 3/6 Test: Problem3.PossiblyPerfect
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem3.PossiblyPerfect" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem3.PossiblyPerfect" start time: May 20 14:14 UTC
+"Problem3.PossiblyPerfect" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem3.PossiblyPerfect
@@ -88,7 +88,7 @@ Note: Google Test filter = Problem3.PossiblyPerfect
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Problem3.PossiblyPerfect" end time: May 20 14:14 UTC
+"Problem3.PossiblyPerfect" end time: May 20 14:18 UTC
 "Problem3.PossiblyPerfect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -96,7 +96,7 @@ Test Passed.
 4/6 Test: Problem4.FindOdd
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem4.FindOdd" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem4.FindOdd" start time: May 20 14:14 UTC
+"Problem4.FindOdd" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem4.FindOdd
@@ -128,7 +128,7 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem4.FindOdd" end time: May 20 14:14 UTC
+"Problem4.FindOdd" end time: May 20 14:18 UTC
 "Problem4.FindOdd" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -136,7 +136,7 @@ Test Failed.
 5/6 Test: Problem5.EncodeDecode
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem5.EncodeDecode" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem5.EncodeDecode" start time: May 20 14:14 UTC
+"Problem5.EncodeDecode" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem5.EncodeDecode
@@ -168,7 +168,7 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem5.EncodeDecode" end time: May 20 14:14 UTC
+"Problem5.EncodeDecode" end time: May 20 14:18 UTC
 "Problem5.EncodeDecode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -176,7 +176,7 @@ Test Failed.
 6/6 Test: Problem6.Bananas
 Command: "/home/luca/hpc/software/softeng_ex1/build/tests" "--gtest_filter=Problem6.Bananas" "--gtest_also_run_disabled_tests"
 Directory: /home/luca/hpc/software/softeng_ex1/build
-"Problem6.Bananas" start time: May 20 14:14 UTC
+"Problem6.Bananas" start time: May 20 14:18 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem6.Bananas
@@ -204,8 +204,8 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem6.Bananas" end time: May 20 14:14 UTC
+"Problem6.Bananas" end time: May 20 14:18 UTC
 "Problem6.Bananas" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 20 14:14 UTC
+End testing: May 20 14:18 UTC
